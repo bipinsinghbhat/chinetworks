@@ -1,0 +1,29 @@
+.favorites-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .movie-card {
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  

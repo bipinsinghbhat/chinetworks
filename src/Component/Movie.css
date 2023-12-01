@@ -1,0 +1,121 @@
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), 0 6px 20px rgba(0, 0, 0, 0.6);
+  }
+  
+  .container input[type="text"],
+  .container button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .container input[type="text"] {
+    width: 300px;
+  }
+  
+  .container button {
+    cursor: pointer;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .container button:hover {
+    background-color: #4682b4;
+  }
+  
+  .divv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .divv img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), 0 3px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .divv h4 {
+    margin: 5px 0;
+  }
+  
+  .divv button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: skyblue;
+  }
+  
+  .divv button:hover {
+    background-color: skyblue;
+  }
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none; 
+    transition: background-color 0.3s ease; 
+    
+  }
+  
+  .search-input:focus {
+    background-color: lightblue; 
+  }
+  
+  .search-button {
+    cursor: pointer;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .search-button:hover {
+    background-color: #4682b4;
+  }
+  
+
+
+
+.add-to-favorites {
+    cursor: pointer;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .add-to-favorites:hover {
+    background-color: #1e90ff;
+  }
+ 
+
+
+  
